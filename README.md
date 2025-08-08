@@ -53,7 +53,7 @@ When the user opens the Camera screen, they can switch between front and back ca
 ## Installation and Running
 
 1. Clone the repository  
-   `git clone <your-repository-url>`
+   `git clone https://github.com/LiChenyang-GZ/ArtOutDemo.git`
 
 2. Install dependencies  
    `npm install`
