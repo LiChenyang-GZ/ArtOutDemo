@@ -1,50 +1,68 @@
-# Welcome to your Expo app 👋
+# Street Capture App Demo
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is a React Native mobile application built with Expo SDK 53 for capturing and managing street art photos. The app allows users to take photos, save them locally, view them in a media library, and display location details on a map.
 
-## Get started
+## Features
 
-1. Install dependencies
+1. Camera functionality to capture photos and record videos using Expo Camera
+2. Ability to save captured media to the device gallery with Expo Media Library
+3. Location retrieval to obtain current latitude, longitude, and address using Expo Location
+4. Map integration with React Native Maps to display the captured location
+5. Media library screen to view previously captured photos along with their location information
+6. Simple and clean navigation using Expo Router
 
-   ```bash
-   npm install
-   ```
+## How to use
+1. Take photo/video  
+<img src="https://github.com/user-attachments/assets/9de01241-1f73-4f90-954e-ab4d1755d52e" width="300" />
 
-2. Start the app
+2. Save photo/video  
+<img src="https://github.com/user-attachments/assets/cc27cdb9-72b5-4721-8d98-0c7f12897900" width="300" />
 
-   ```bash
-   npx expo start
-   ```
+3. View your capture in media library  
+<img src="https://github.com/user-attachments/assets/4af90059-06a7-4da9-ac68-6bad8fa0ca82" width="300" />
 
-In the output, you'll find options to open the app in a
+4. Click the card then check with Google map  
+<img src="https://github.com/user-attachments/assets/e7f20edb-967c-4a87-a2cb-df2d03d8c186" width="300" />
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
+## Technologies Used
 
-When you're ready, run:
+**React Native and Expo**  
+Provides the cross-platform framework and development environment for building the mobile application
 
-```bash
-npm run reset-project
-```
+**Expo Camera**  
+Enables access to the device camera for capturing photos and videos with custom UI controls
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+**Expo Media Library**  
+Allows saving captured images and videos to the device’s gallery and retrieving them when needed
 
-## Learn more
+**Expo Location**  
+Provides access to the device’s GPS for retrieving location coordinates and reverse geocoding to addresses
 
-To learn more about developing your project with Expo, look at the following resources:
+**React Native Maps**  
+Displays the captured location on an interactive map view
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+**Expo Router**  
+Simplifies navigation between screens such as the camera and media library
 
-## Join the community
+## How It Works
 
-Join our community of developers creating universal apps.
+When the user opens the Camera screen, they can switch between front and back cameras, toggle flash, and capture photos or record videos. After capturing, the user can save the media to their device gallery. Each capture can also be associated with a location, which is later displayed alongside the media in the Media Library screen. The Media Library screen also offers a map view to visualise the capture location.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Installation and Running
+
+1. Clone the repository  
+   `git clone <your-repository-url>`
+
+2. Install dependencies  
+   `npm install`
+
+3. Start the development server  
+   `npx expo start`
+
+4. Open the app in Expo Go on your mobile device or run on an emulator
+
+## Future Improvements
+
+The app could be enhanced with cloud storage integration for backing up media, authentication for user-specific libraries, and advanced filtering or search in the media library.
