@@ -21,7 +21,7 @@ This is a React Native mobile application built with Expo SDK 53 for capturing a
 3. View your capture in media library  
 <img src="https://github.com/user-attachments/assets/4af90059-06a7-4da9-ac68-6bad8fa0ca82" width="300" />
 
-4. Click the card then check with Google map  
+4. Click the card then check with map  
 <img src="https://github.com/user-attachments/assets/e7f20edb-967c-4a87-a2cb-df2d03d8c186" width="300" />
 
 
